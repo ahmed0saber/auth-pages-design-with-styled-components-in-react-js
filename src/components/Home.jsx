@@ -33,7 +33,7 @@ export default function Home() {
         <>
             <GreyHeading>Home Page</GreyHeading>
             <BtnsContainer>
-                <LinkAsButton to="/login" primary>Log in</LinkAsButton>
+                <LinkAsButton to="/login" primary="true">Log in</LinkAsButton>
                 <LinkAsButton to="/signup">Sign up</LinkAsButton>
             </BtnsContainer>
         </>
