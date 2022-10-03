@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 const BtnsContainer = styled.div`
     display: flex;
@@ -33,7 +33,7 @@ export default function Home() {
         <>
             <GreyHeading>Home Page</GreyHeading>
             <BtnsContainer>
-                <LinkAsButton to="/login" primary="true">Log in</LinkAsButton>
+                <LinkAsButton to="/login" primary>Log in</LinkAsButton>
                 <LinkAsButton to="/signup">Sign up</LinkAsButton>
             </BtnsContainer>
         </>

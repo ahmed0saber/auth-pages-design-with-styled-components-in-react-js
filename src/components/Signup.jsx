@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 const LinkAsButton = styled(NavLink)`
     width: 100%;
